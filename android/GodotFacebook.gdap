@@ -1,0 +1,9 @@
+[config]
+
+name="GodotFacebook"
+binary_type="local"
+binary="GodotFacebook-release.aar"
+
+[dependencies]
+
+remote=["com.facebook.android:facebook-android-sdk:8.1.0"]
