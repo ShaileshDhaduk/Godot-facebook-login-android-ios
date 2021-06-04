@@ -1,6 +1,8 @@
 # Godot-facebook-login-android-ios
 Facebook login in app
 
+Godot 3.3
+
 ## Android
 ```
 if Engine.has_singleton("GodotFacebook"):
