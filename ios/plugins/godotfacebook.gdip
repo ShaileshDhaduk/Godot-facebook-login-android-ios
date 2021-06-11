@@ -1,0 +1,20 @@
+[config]
+name="GodotFacebook"
+binary="godotfacebook/bin/godotfacebook.xcframework"
+
+initialization="register_facebook_types"
+deinitialization="unregister_facebook_types"
+
+[dependencies]
+linked=[
+	"./godotfacebook/lib/FBSDKCoreKit.framework",
+	"./godotfacebook/lib/FBSDKLoginKit.framework",
+	"./godotfacebook/lib/FBSDKShareKit.framework"]
+embedded=[]
+system=["Accelerate.framework","JavaScriptCore.framework"]
+
+capabilities=[]
+
+files=[]
+
+[plist]
